@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "osi.h": "c",
+        "string.h": "c"
+    }
+}
