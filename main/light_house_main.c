@@ -13,6 +13,7 @@
 #include "esp_flash.h"
 #include "esp_system.h"
 #include "lcd.h"
+#include "blufi.h"
 
 void app_main(void)
 {
@@ -44,4 +45,5 @@ void app_main(void)
     printf("Minimum free heap size: %" PRIu32 " bytes\n", esp_get_minimum_free_heap_size());
 
     lcd_task_init();
+    blufi_task_init();
 }

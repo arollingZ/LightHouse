@@ -1,4 +1,4 @@
 idf_component_register(SRCS "lcd.c"
                             "lcd_driver.c"
                     INCLUDE_DIRS "include"
-                    PRIV_REQUIRES "esp_driver_gpio" "esp_driver_uart" "esp_driver_spi")
+                    PRIV_REQUIRES "esp_driver_gpio" "esp_driver_uart" "esp_driver_spi" "osi")
